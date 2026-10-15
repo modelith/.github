@@ -10,7 +10,6 @@
 <p align="center">
   <a href="https://modelith.github.io/modelith/"><b>ブラウザで試す</b></a> &nbsp;|&nbsp;
   <a href="https://github.com/modelith/modelith">ソースコード</a> &nbsp;|&nbsp;
-  <a href="https://github.com/modelith/modelith/tree/dev/docs">ドキュメント</a> &nbsp;|&nbsp;
   <a href="https://github.com/modelith/modelith/issues/new/choose">フィードバック</a>
 </p>
 
@@ -58,13 +57,12 @@
 
 ## 開発状況
 
-いまは **0.1.0 に向けた alpha 版**です。1 週間ごとに alpha を公開しながら、テストユーザーの声をもとに育てています。今後は CLI・MCP・LSP・プラグイン・サーバへと広げていく予定です（[ロードマップ](https://github.com/modelith/modelith/blob/dev/docs/explanation/architecture.md#ロードマップ)）。
+いまは **0.1.0 に向けた alpha 版**です。1 週間ごとに alpha を公開しながら、テストユーザーの声をもとに育てています。今後は CLI・MCP・LSP・プラグイン・サーバへと広げていく予定です。
 
 ## 参加する
 
 - 使ってみた感想・「こんな図がほしい」は [Issues](https://github.com/modelith/modelith/issues/new/choose) へ。
-- コードでの貢献は [CONTRIBUTING.md](https://github.com/modelith/modelith/blob/dev/CONTRIBUTING.md) をご覧ください。
-- 設計の背景は [ADR](https://github.com/modelith/modelith/tree/dev/docs/adr) にまとめています。
+- コードで貢献したい方は、[modelith リポジトリ](https://github.com/modelith/modelith)をご覧ください。
 
 <br>
 
