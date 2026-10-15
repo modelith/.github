@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./logo.svg" width="88" height="88" alt="Modelith">
+  <img src="https://raw.githubusercontent.com/modelith/.github/main/profile/logo.svg" width="88" height="88" alt="Modelith">
 </p>
 
 <p align="center">
@@ -27,8 +27,8 @@
 <p align="center">
   <a href="https://modelith.github.io/modelith/">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./screenshot-dark.png">
-      <img src="./screenshot.png" width="800" alt="Modelith の画面。左にファイル、中央にトレーサビリティの図、右に SysML v2 のテキスト">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/modelith/.github/main/profile/screenshot-dark.png">
+      <img src="https://raw.githubusercontent.com/modelith/.github/main/profile/screenshot.png" width="800" alt="Modelith の画面。左にファイル、中央にトレーサビリティの図、右に SysML v2 のテキスト">
     </picture>
   </a>
 </p>
