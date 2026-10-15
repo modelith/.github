@@ -1,4 +1,6 @@
-<!-- TODO: ロゴができたら差し替える（例: <img src="https://raw.githubusercontent.com/modelith/.github/main/profile/logo.svg" width="96" alt="Modelith">） -->
+<p align="center">
+  <img src="./logo.svg" width="96" height="96" alt="Modelith logo">
+</p>
 
 <h1 align="center">Modelith</h1>
 
