@@ -10,7 +10,8 @@
 <p align="center">
   <a href="https://modelith.github.io/modelith/"><b>ブラウザで試す</b></a> &nbsp;|&nbsp;
   <a href="https://github.com/modelith/modelith">ソースコード</a> &nbsp;|&nbsp;
-  <a href="https://github.com/modelith/modelith/issues/new/choose">フィードバック</a>
+  <a href="https://github.com/modelith/modelith/issues/new/choose">フィードバック</a> &nbsp;|&nbsp;
+  <a href="https://github.com/sponsors/modelith">スポンサーになる</a>
 </p>
 
 <p align="center">
@@ -63,6 +64,7 @@
 
 - 使ってみた感想・「こんな図がほしい」は [Issues](https://github.com/modelith/modelith/issues/new/choose) へ。
 - コードで貢献したい方は、[modelith リポジトリ](https://github.com/modelith/modelith)をご覧ください。
+- 開発を支援してくださる方は、[GitHub Sponsors](https://github.com/sponsors/modelith) からお願いします。
 
 <br>
 
