@@ -9,6 +9,7 @@
 
 <p align="center">
   <a href="https://modelith.github.io/modelith/"><b>ブラウザで試す</b></a> &nbsp;|&nbsp;
+  <a href="https://modelith.github.io/">ユーザーマニュアル</a> &nbsp;|&nbsp;
   <a href="https://github.com/modelith/modelith">ソースコード</a> &nbsp;|&nbsp;
   <a href="https://github.com/modelith/modelith/issues/new/choose">フィードバック</a> &nbsp;|&nbsp;
   <a href="https://github.com/sponsors/modelith">スポンサーになる</a>
@@ -37,11 +38,14 @@
 - **書いても、描いても、同じモデル**<br>
   テキストを打てば図に反映し、図で要素や関係を足せばテキストが書き換わります。
 
-- **目的に合わせた 7 つのビュー**<br>
-  トレーサビリティ・構造・制御ループ・内部ブロック図・振る舞い・シーケンスなど、同じモデルを見たい切り口で表示できます。SVG や draw.io 形式への書き出しにも対応しています。
+- **目的に合わせた図**<br>
+  ブロック定義図・内部ブロック図・アクティビティ図・状態遷移図・シーケンス図・トレーサビリティなど、同じモデルを見たい切り口で表示できます。SVG や draw.io 形式でエクスポートすることもできます。
 
 - **要求の抜けに気づける**<br>
-  利用者要求から方式設計・検証までのつながりをたどり、導出・充足・検証の抜けを件数と箇所で示します。
+  利用者要求から方式設計・検証までのつながりをたどり、導出・充足・検証の抜けを示します。
+
+- **SysML v2 を知らなくても読める**<br>
+  テキストのキーワードや図の名前にマウスを乗せると、その意味を表示します。
 
 - **ブラウザを開くだけ**<br>
   インストールもアカウントも不要です。手元のフォルダを VS Code のように開いて、編集・保存できます。
@@ -55,10 +59,11 @@
 | --- | --- | --- |
 | [modelith](https://github.com/modelith/modelith) | エディタ本体（Rust コア・Web アプリ・CLI） | AGPL-3.0 + [Plugin Exception](https://github.com/modelith/modelith/blob/main/PLUGIN-EXCEPTION.md) |
 | [plugin-sdk](https://github.com/modelith/plugin-sdk) | プラグイン向けのインタフェース・型定義 | MIT |
+| [modelith.github.io](https://github.com/modelith/modelith.github.io) | ユーザーマニュアル | MIT |
 
 ## 開発状況
 
-いまは **0.1.0 に向けた alpha 版**です。1 週間ごとに alpha を公開しながら、テストユーザーの声をもとに育てています。今後は CLI・MCP・LSP・プラグイン・サーバへと広げていく予定です。
+いまは **0.1.0 に向けた beta 版**です。機能は固定し、0.1.0 までは不具合の修正だけを行います。テストユーザーの声をもとに育てているので、気になる振る舞いがあればお知らせください。0.1.0 の先は、CLI・MCP・LSP・プラグイン・サーバへと広げていく予定です。
 
 ## 参加する
 
