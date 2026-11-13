@@ -1,3 +1,5 @@
+<p align="right"><sub><a href="https://github.com/modelith">English</a> &nbsp;|&nbsp; <b>日本語</b></sub></p>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/modelith/.github/main/profile/logo.svg" width="88" height="88" alt="Modelith">
 </p>
@@ -12,7 +14,6 @@
   <a href="https://modelith.github.io/">マニュアル</a> &nbsp;|&nbsp;
   <a href="https://github.com/sponsors/modelith">支援する</a>
   <br>
-  <a href="https://github.com/modelith">English</a> &nbsp;|&nbsp;
   <a href="https://github.com/modelith/modelith">ソースコード</a> &nbsp;|&nbsp;
   <a href="https://github.com/modelith/modelith/issues/new/choose">フィードバック</a>
 </p>

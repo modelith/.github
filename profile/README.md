@@ -1,3 +1,5 @@
+<p align="right"><sub><b>English</b> &nbsp;|&nbsp; <a href="https://github.com/modelith/.github/blob/main/profile/README.ja.md">日本語</a></sub></p>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/modelith/.github/main/profile/logo.svg" width="88" height="88" alt="Modelith">
 </p>
@@ -11,7 +13,6 @@
   <a href="https://modelith.github.io/modelith/"><b>Try it in your browser</b></a> &nbsp;|&nbsp;
   <a href="https://github.com/sponsors/modelith">Sponsor</a>
   <br>
-  <a href="https://github.com/modelith/.github/blob/main/profile/README.ja.md">日本語</a> &nbsp;|&nbsp;
   <a href="https://modelith.github.io/">Manual (ja)</a> &nbsp;|&nbsp;
   <a href="https://github.com/modelith/modelith">Source</a> &nbsp;|&nbsp;
   <a href="https://github.com/modelith/modelith/issues/new/choose">Feedback</a>
