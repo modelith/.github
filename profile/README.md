@@ -1,19 +1,21 @@
+<p align="right"><sub><b>English</b> &nbsp;|&nbsp; <a href="https://github.com/modelith/.github/blob/main/profile/README.ja.md">日本語</a></sub></p>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/modelith/.github/main/profile/logo.svg" width="88" height="88" alt="Modelith">
 </p>
 
 <p align="center">
-  <b>テキストと図を同期して編集できる、オープンソースの SysML v2 モデリングエディタ</b><br>
-  <sub>SysML v2 / KerML modeling editor with synchronized text and diagram editing</sub>
+  <b>An open source SysML v2 modeling editor with synchronized text and diagram editing</b><br>
+  <sub>テキストと図を同期して編集できる、オープンソースの SysML v2 モデリングエディタ</sub>
 </p>
 
 <p align="center">
-  <a href="https://modelith.github.io/modelith/"><b>ブラウザで試す</b></a> &nbsp;|&nbsp;
-  <a href="https://modelith.github.io/">マニュアル</a> &nbsp;|&nbsp;
-  <a href="https://github.com/sponsors/modelith">支援する</a>
+  <a href="https://modelith.github.io/modelith/"><b>Try it in your browser</b></a> &nbsp;|&nbsp;
+  <a href="https://github.com/sponsors/modelith">Sponsor</a>
   <br>
-  <a href="https://github.com/modelith/modelith">ソースコード</a> &nbsp;|&nbsp;
-  <a href="https://github.com/modelith/modelith/issues/new/choose">フィードバック</a>
+  <a href="https://modelith.github.io/">Manual (ja)</a> &nbsp;|&nbsp;
+  <a href="https://github.com/modelith/modelith">Source</a> &nbsp;|&nbsp;
+  <a href="https://github.com/modelith/modelith/issues/new/choose">Feedback</a>
 </p>
 
 <p align="center">
@@ -23,54 +25,54 @@
 
 <br>
 
-## Modelith とは
+## What is Modelith?
 
-システムエンジニア・学生・研究者のための、SysML v2 のモデリングエディタです。テキストで書いたモデルがすぐ図になり、図で動かした内容はテキストに書き戻されます。
+Modelith is a SysML v2 modeling editor for systems engineers, students and researchers. Write a model as text and it becomes a diagram right away; change the diagram and the text is rewritten to match.
 
 <p align="center">
   <a href="https://modelith.github.io/modelith/">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/modelith/.github/main/profile/screenshot-dark.png">
-      <img src="https://raw.githubusercontent.com/modelith/.github/main/profile/screenshot.png" width="800" alt="Modelith の画面。左にファイル、中央にトレーサビリティの図、右に SysML v2 のテキスト">
+      <img src="https://raw.githubusercontent.com/modelith/.github/main/profile/screenshot.png" width="800" alt="The Modelith editor: files on the left, a traceability diagram in the middle and SysML v2 text on the right">
     </picture>
   </a>
 </p>
 
-- **書いても、描いても、同じモデル**<br>
-  テキストを打てば図に反映し、図で要素や関係を足せばテキストが書き換わります。
+- **One model, whether you write or draw**<br>
+  Typing in the text updates the diagram, and adding elements or relationships in the diagram rewrites the text.
 
-- **目的に合わせた図**<br>
-  ブロック定義図・内部ブロック図・アクティビティ図・状態遷移図・シーケンス図・トレーサビリティなど、同じモデルを見たい切り口で表示できます。SVG や draw.io 形式でエクスポートすることもできます。
+- **The right diagram for the job**<br>
+  View the same model as a block definition, internal block, activity, state transition, sequence or traceability diagram. Export diagrams as SVG or for draw.io.
 
-- **要求の抜けに気づける**<br>
-  利用者要求から方式設計・検証までのつながりをたどり、導出・充足・検証の抜けを示します。
+- **Spot gaps in your requirements**<br>
+  Follow the links from stakeholder needs through design to verification, and see where derivation, satisfaction or verification is missing.
 
-- **SysML v2 を知らなくても読める**<br>
-  テキストのキーワードや図の名前にマウスを乗せると、その意味を表示します。
+- **Readable without knowing SysML v2**<br>
+  Hover over a keyword in the text or a diagram name to see what it means.
 
-- **ブラウザを開くだけ**<br>
-  インストールもアカウントも不要です。手元のフォルダを VS Code のように開いて、編集・保存できます。
+- **Just open your browser**<br>
+  No install and no account. Open a local folder, much like in VS Code, and edit and save your files.
 
-- **モデルは手元から出ない**<br>
-  モデルを外部に送信せず、アクセス解析も使いません。モデルはただのテキストファイルなので、Git で差分を追えます。
+- **Your model stays on your machine**<br>
+  Modelith never sends your model anywhere and uses no analytics. Models are plain text files, so you can diff them in Git.
 
-## リポジトリ
+## Repositories
 
-| リポジトリ | 内容 | ライセンス |
+| Repository | What it is | License |
 | --- | --- | --- |
-| [modelith](https://github.com/modelith/modelith) | エディタ本体（Rust コア・Web アプリ・CLI） | AGPL-3.0 + [Plugin Exception](https://github.com/modelith/modelith/blob/main/PLUGIN-EXCEPTION.md) |
-| [plugin-sdk](https://github.com/modelith/plugin-sdk) | プラグイン向けのインタフェース・型定義 | MIT |
-| [modelith.github.io](https://github.com/modelith/modelith.github.io) | ユーザーマニュアル | MIT |
+| [modelith](https://github.com/modelith/modelith) | The editor (Rust core, web app and CLI) | AGPL-3.0 + [Plugin Exception](https://github.com/modelith/modelith/blob/main/PLUGIN-EXCEPTION.md) |
+| [plugin-sdk](https://github.com/modelith/plugin-sdk) | Interfaces and types for plugins | MIT |
+| [modelith.github.io](https://github.com/modelith/modelith.github.io) | User manual (Japanese) | MIT |
 
-## 開発状況
+## Status
 
-いまは **0.1.0 に向けた beta 版**です。機能は固定し、0.1.0 までは不具合の修正だけを行います。テストユーザーの声をもとに育てているので、気になる振る舞いがあればお知らせください。0.1.0 の先は、CLI・MCP・LSP・プラグイン・サーバへと広げていく予定です。
+Modelith is in **beta for 0.1.0**. Features are frozen, and only bug fixes go in until 0.1.0. We shape it around feedback from test users, so please tell us about anything that behaves unexpectedly. After 0.1.0, we plan to grow it into a CLI, MCP, LSP, plugins and a server.
 
-## 参加する
+## Get involved
 
-- 使ってみた感想・「こんな図がほしい」は [Issues](https://github.com/modelith/modelith/issues/new/choose) へ。
-- コードで貢献したい方は、[modelith リポジトリ](https://github.com/modelith/modelith)をご覧ください。
-- 開発を支援してくださる方は、[GitHub Sponsors](https://github.com/sponsors/modelith) からお願いします。
+- Share what you think, or which diagrams you need, in [Issues](https://github.com/modelith/modelith/issues/new/choose).
+- To contribute code, see the [modelith repository](https://github.com/modelith/modelith).
+- To support development, please sponsor us on [GitHub Sponsors](https://github.com/sponsors/modelith).
 
 <br>
 
