@@ -9,11 +9,11 @@
 
 <p align="center">
   <a href="https://modelith.github.io/modelith/"><b>ブラウザで試す</b></a> &nbsp;|&nbsp;
-  <a href="https://modelith.github.io/">ユーザーマニュアル</a>
+  <a href="https://modelith.github.io/">マニュアル</a> &nbsp;|&nbsp;
+  <a href="https://github.com/sponsors/modelith">支援する</a>
   <br>
   <a href="https://github.com/modelith/modelith">ソースコード</a> &nbsp;|&nbsp;
-  <a href="https://github.com/modelith/modelith/issues/new/choose">フィードバック</a> &nbsp;|&nbsp;
-  <a href="https://github.com/sponsors/modelith">支援する</a>
+  <a href="https://github.com/modelith/modelith/issues/new/choose">フィードバック</a>
 </p>
 
 <p align="center">
