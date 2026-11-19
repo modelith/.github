@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <b>An open source SysML v2 modeling editor with synchronized text and diagram editing</b><br>
+  <b>An open-source SysML v2 modeling editor with synchronized text and diagram editing</b><br>
   <sub>テキストと図を同期して編集できる、オープンソースの SysML v2 モデリングエディタ</sub>
 </p>
 
@@ -27,7 +27,7 @@
 
 ## What is Modelith?
 
-Modelith is a SysML v2 modeling editor for systems engineers, students and researchers. Write a model as text and it becomes a diagram right away; change the diagram and the text is rewritten to match.
+A SysML v2 modeling editor for systems engineers, students and researchers. A model you write as text becomes a diagram right away, and what you change in the diagram is written back to the text.
 
 <p align="center">
   <a href="https://modelith.github.io/modelith/">
@@ -38,23 +38,23 @@ Modelith is a SysML v2 modeling editor for systems engineers, students and resea
   </a>
 </p>
 
-- **One model, whether you write or draw**<br>
-  Typing in the text updates the diagram, and adding elements or relationships in the diagram rewrites the text.
+- **Write it or draw it — it's the same model.**<br>
+  Type text and the diagram follows; add elements and relationships in the diagram and the text is rewritten.
 
-- **The right diagram for the job**<br>
-  View the same model as a block definition, internal block, activity, state transition, sequence or traceability diagram. Export diagrams as SVG or for draw.io.
+- **Diagrams for each purpose.**<br>
+  Show the same model from the angle you need: block definition, internal block, activity, state machine, sequence, traceability and more. Export them as SVG or draw.io.
 
-- **Spot gaps in your requirements**<br>
-  Follow the links from stakeholder needs through design to verification, and see where derivation, satisfaction or verification is missing.
+- **Spot gaps in your requirements.**<br>
+  Follow the chain from stakeholder needs through architecture to verification, and see where derivation, satisfaction or verification is missing.
 
-- **Readable without knowing SysML v2**<br>
-  Hover over a keyword in the text or a diagram name to see what it means.
+- **Readable without knowing SysML v2.**<br>
+  Hover over a keyword in the text or the name of a diagram to see what it means.
 
-- **Just open your browser**<br>
-  No install and no account. Open a local folder, much like in VS Code, and edit and save your files.
+- **Just open a browser.**<br>
+  No installation and no account. Open a local folder like in VS Code, then edit and save.
 
-- **Your model stays on your machine**<br>
-  Modelith never sends your model anywhere and uses no analytics. Models are plain text files, so you can diff them in Git.
+- **Your model stays with you.**<br>
+  Modelith does not send your model anywhere and uses no analytics. A model is plain text, so you can track changes with Git.
 
 ## Repositories
 
@@ -66,11 +66,11 @@ Modelith is a SysML v2 modeling editor for systems engineers, students and resea
 
 ## Status
 
-Modelith is in **beta for 0.1.0**. Features are frozen, and only bug fixes go in until 0.1.0. We shape it around feedback from test users, so please tell us about anything that behaves unexpectedly. After 0.1.0, we plan to grow it into a CLI, MCP, LSP, plugins and a server.
+**0.1.0** is the first stable version. **0.2.0** is in release candidates. Next, AI tools such as Claude will be able to read, check and edit your models through MCP, and you will be able to keep projects on a server you run yourself. See the [roadmap](https://github.com/modelith/modelith#roadmap) for details.
 
 ## Get involved
 
-- Share what you think, or which diagrams you need, in [Issues](https://github.com/modelith/modelith/issues/new/choose).
+- Share what you think, or which diagrams you need, in [Issues](https://github.com/modelith/modelith/issues/new/choose). Issues in English or Japanese are welcome.
 - To contribute code, see the [modelith repository](https://github.com/modelith/modelith).
 - To support development, please sponsor us on [GitHub Sponsors](https://github.com/sponsors/modelith).
 
